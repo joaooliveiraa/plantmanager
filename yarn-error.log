@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Joao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-iphone-x-helper
+  C:\Program Files\nodejs\node.exe C:\Users\Joao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
 
 PATH: 
   C:\Python27\;C:\Python27\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\Server\4.4\bin;C:\ProgramData\chocolatey\bin;C:\Users\Joao\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Joao\AppData\Local\Programs\Python\Python38\;C:\src\flutter\bin;C:\Users\Joao\AppData\Roaming\npm;C:\Users\Joao\AppData\Local\Microsoft\WindowsApps;
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\projetos\nlw5\plantManager\node_modules\@babel\generator\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\projetos\nlw5\plantManager\node_modules\@babel\plugin-transform-runtime\node_modules\.bin'
 
 npm manifest: 
   {
