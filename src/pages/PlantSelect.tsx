@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, StyleSheet, FlatList } from "react-native";
+import { View, Text, StyleSheet, FlatList, ActivityIndicator } from "react-native";
 import { EnviromentButton } from "../components/EnviromentButton";
 
 import { Header } from "../components/Header";
@@ -140,6 +140,11 @@ export function PlantSelect() {
           numColumns={2}
           onEndReachedThreshold={0.1} //Quando usuario chegar em 10% do final da tela
           onEndReached={({ distanceFromEnd }) => handleFetchMore(distanceFromEnd)} //Quando chegar executa isso
+          ListFooterComponent={ //Aparecer o indicador no footer da tela  somente quando esta carregando
+            loadingMore ?
+            <ActivityIndicator color ={colors.green} />
+            : <></>
+          }
         />
       </View>
     </View>
